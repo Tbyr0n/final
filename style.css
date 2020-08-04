@@ -27,6 +27,9 @@ nav a:hover {
     --main-grey: #e2e2e2;
     --main-blue: #033193;
     --main-white: white;
+    --font-family: verdana regular ;
+    --font-size1: 15pt;
+    --font-size2: 13pt;
 }
 
 img {
@@ -43,7 +46,9 @@ nav ul {
     display: flex;
     background-color: var(--main-blue);
     color: var(--main-white);
-}
+    font-family: var(--font-family);
+    font-size: var(--font-size11);
+ }
 
 li {
     padding: 10px;
@@ -70,6 +75,8 @@ main {
 
 p {
     padding: 5px;
+    font-family: verdana regular;
+    font-size: var(--font-size2);
 }
 
 .latest-news {
@@ -113,6 +120,7 @@ footer {
     font-size: 14px;
     padding: 5px;
     bottom: 0;
+    font-size: var(--font-size1);
 }
 
 
