@@ -27,7 +27,7 @@ nav a:hover {
     --main-grey: #e2e2e2;
     --main-blue: #033193;
     --main-white: white;
-    --font-family: verdana regular ;
+    --font-family: verdana regular;
     --font-size1: 15pt;
     --font-size2: 13pt;
 }
@@ -35,7 +35,7 @@ nav a:hover {
 img {
     max-width: 100%;
 }
-
+/*  */
 .logo {
     padding: 15px;
 }
@@ -48,6 +48,7 @@ nav ul {
     color: var(--main-white);
     font-family: var(--font-family);
     font-size: var(--font-size11);
+    font-size: 15pt;
  }
 
 li {
@@ -117,9 +118,9 @@ footer {
     background-color: black;
     color: var(--main-white);
     text-align: center;
-    font-size: 14px;
     padding: 5px;
     bottom: 0;
+    font-family: var(--font-family);
     font-size: var(--font-size1);
 }
 
