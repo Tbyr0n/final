@@ -27,7 +27,7 @@ nav a:hover {
     --main-grey: #e2e2e2;
     --main-blue: #033193;
     --main-white: white;
-    --font-family: verdana regular;
+    --font-family: Verdana Regular;
     --font-size1: 15pt;
     --font-size2: 13pt;
 }
@@ -47,8 +47,7 @@ nav ul {
     background-color: var(--main-blue);
     color: var(--main-white);
     font-family: var(--font-family);
-    font-size: var(--font-size11);
-    font-size: 15pt;
+    font-size: var(--font-size1);
  }
 
 li {
@@ -91,7 +90,8 @@ p {
     color: var(--main-white);
     text-align: center;
     padding: 5px;
-    font-size: 14px;
+    font-family: var(--font-family);
+    font-size: var(--font-size2);
 }
 
 .latest-news img {
